@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title><%= title %></title>
-    <link rel="stylesheet" href="/stylesheets/style.css">
-  </head>
-  <body>
-    <%- body %>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    <%= title %>
+  </title>
+
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="/images/favicon.png"> -->
+
+
+  <link rel="stylesheet" href="/stylesheets/style.css">
+
+  <!-- <link rel="stylesheet" href="/stylesheets/mediaquerys.css"> -->
+
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <section id="landing" class="landing-page">
+
+    <div class="header-overlay">
+      <div>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">
+                <p>Test.Co</p>
+              </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a class="nav-item" href="#landing">HOME</a>
+                </li>
+                <li>
+                  <a class="nav-item" href="#header">About us</a>
+                </li>
+                <li>
+                  <a class="nav-item" href="#about-me">Testimonials</a>
+                </li>
+                <li>
+                  <a class="nav-item" href="#desk">Follow Us</a>
+                </li>
+                <li>
+                  <a class="nav-item" href="#footer">Contact</a>
+                </li>
+
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+
+      </div>
+      <h1 class="layout-title"> [Title] </h1>
+      <br>
+      <h3 class="layout-title-two"> [Subtitle] </h3>
+      <div class="container">
+        <div class="row">
+          <div class="button-col col-md-12">
+            <a href="#header" class="tour-button"> Take a Tour</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <%- body %>
+
+    <footer>
+      <h1>[Brand Name]</h1>
+      <p> [Brand Name] © 2017</p>
+      <div class="container">
+        <div class="icon-col row">
+          <a href="" target="_blank">
+            <i class="fa fa-linkedin fa-2x"></i>
+          </a>
+          <a href="" target="_blank">
+            <i class="fa fa-twitter fa-2x"></i>
+          </a>
+          <a href="" target="_blank">
+            <i class="fa fa-github fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery libraries -->
+
+    <script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script>
+    <!-- <script type="text/javascript" scr="/javascripts/bootstrap.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="/javascripts/custom.js"></script>
+
+</body>
+
 </html>

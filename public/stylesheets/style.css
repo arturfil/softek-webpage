@@ -1,8 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica , Arial, sans-serif;
+  margin: 0;
 }
 
+/* nav-bar */
+
+.nav li {
+  display: inline-block;
+}
+.nav li a {
+  color: white;
+  text-transform: uppercase;
+}
+.navbar-default{
+  background-color: rgba(59, 59, 59, 0.7);
+  border-color: #444;
+  z-index: 110;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #B5b5b5;
+  font-family: "Raleway", sans-serif;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #129CF3;
+}
+.navbar-default .navbar-nav > li > a:focus {
+  color: #B5b5b5;
+}
+.navbar-brand {
+  padding: 9px 15px;
+}
+.navbar-brand img {
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #129CF3;
+}
+.navbar-brand {
+  margin-top: 3.5%;
+}
+
+/* landing-page */
+
+.landing-page {
+  margin: none;
+  background-image: url('../images/home-image.jpeg');
+  height: 800px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-overlay {
+  background-color: rgba(31, 31, 31, 0.4);  
+  height: 800px;
+}
+.layout-title {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  padding-top: 330px;
+  margin: 0;
+}
+.layout-title-two {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+.tour-button {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 45px;
+  padding: 10px 20px;
+  width: 400px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+
+}
+.tour-button:hover {
+  text-decoration: none;
+  color: #00b7ff;
+  border-color: white;
+  background-color: white;
+}
 a {
   color: #00B7FF;
+}
+
+/* underline - span */
+
+.underline {
+  background-color: black;
+  height: 5px;
+  width: 70p;
+  padding: 2px 125px ;
+  margin: 0 auto;
+}
+
+hr {
+  width: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  border: 1px black solid;
+  text-align: center;
+}
+
+
+/* Index Header */
+
+#header {
+  margin-top: 50px;
+  height: 700px;
+  background-color: white;
+}
+#header h2 {
+  text-align: center;
+  padding-top: 60px;
+  text-transform: uppercase;
+}
+.tech-block {
+  width: 90%;
+  padding-bottom: 40px;
+}
+.tech {
+  text-align: center;
+  /* border: lightgrey 1px solid; */
+  padding-top: 30px;
+  height: 170px;
+}
+.circle {
+  background-color: #00B7FF;
+  padding: 2px 10px;
+  margin-right: 3px;
+  height: 20px;
+  width: 30px;
+  border-radius: 50%;
+}
+.e-circle {
+  background-color: white;
+  border-color: #00B7FF 1px solid;
+  border: 1px solid #00B7FF;
+  padding: 2px 10px;
+  margin-right: 3px;
+  height: 20px;
+  width: 30px;
+  border-radius: 50%;
+}
+.tech-block {
+  text-align: center;
+}
+.tech-block img {
+  margin-top: 40px;
+}
+.tech-block h3 {
+  margin-top: 40px;
+  text-align: left;
+}
+.tech-block p {
+  text-align: left;
+  width: 500px;
+}
+.product-image {
+  height: 400px;
+  width: 600px;
+}
+.left-block {
+  width: 500px;
+  margin-left: 150px;
+}
+#right-header {
+  text-align: left;
+}
+#right-paragraph {
+  text-align: left;
+  width: 100%;
+}
+
+/* About Me */
+.about-me {
+  min-height: 500px;
+  background-color: rgb(9, 9, 37);
+}
+.about-me hr {
+  color: white;
+  background-color: white;
+  border: white 1px solid; 
+}
+.about-me h2 {
+  text-align: center;
+  padding-top: 70px;
+  text-transform: uppercase;
+  font-weight: 500px;
+  margin-bottom: 20px;
+  color: white;
+}
+.about-me h3 {
+  text-transform: uppercase;
+  color: white;
+}
+.about-me p {
+  font-size: 20px;
+  color: white;
+}
+.about-me-cont {
+  margin-bottom: 40px;
+}
+.passion-cont {
+  text-align: center;
+}
+i {
+  border: white solid 5px;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 40px;
+  color: white;
+}
+i:hover {
+  color: #00B7FF;
+  border: #00B7FF solid 5px;
+}
+
+/* Testimonials */
+
+.testimonial {
+  background-image: url("../images/coffee-field.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
+  -o-background-size:cover;
+  background-position: 50% 50%;
+}
+.testimonial-overlay {
+  background-color: rgba(31,31,31,.75);
+  padding: 80px 0;
+}
+.carousel-indicators {
+  bottom: -10px;
+}
+.text-center img {
+  height: 250px;
+  width: 250px;
+}
+.carousel-inner .item img {
+  border: 2px solid #129CF3;
+  border-radius: 50%;
+  padding: 3px;
+}
+.testimonial-caption {
+  padding-bottom: 70px;
+}
+.testimonial-caption h2 {
+  color: #129CF3;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 25px;
+}
+.testimonial-caption h4 {
+  color: #129CF3;
+}
+.testimonial-caption h4 span {
+  color: #D8D8D8;
+  font-style: italic;
+  font-weight: 300;
+}
+.testimonial-caption p {
+  color: #D8D8D8;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 50px;
+}
+
+/* Projects */
+.projects {
+  background-color: rgba(232, 233, 229, 0.712);
+  padding-bottom: 150px;
+  /* margin-bottom: 30px; */
+  overflow: hidden;
+}
+.projects h2 {
+  text-transform: uppercase;
+  margin: 0px;
+  padding-top: 70px;
+  text-align: center;
+}
+.project-block {
+  margin-top: 40px;
+  width: 100%;
+}
+.project-row {
+  margin-bottom: 90px;
+}
+.project-cont {
+  /* border: gray 1px solid; */
+  text-align: center;
+  height: 200px;
+  margin-bottom: 120px;
+  padding: 30px 0px;
+}
+.project-cont:hover .middle {
+  opacity: 1;
+}
+.project-cont img {
+  height: auto;
+  width: 90%; 
+  padding: 20px 0;
+  margin-bottom: 50px;
+  overflow-y: hidden;
+  opacity: 1;
+}
+.project-cont img:hover {
+  width: 92%;
+  height: auto;
+  overflow: hidden;
+  opacity: 0.7;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text {
+  background-color: #00ffdd;
+  color: white;
+  font-size: 15px;
+  padding: 16px 16px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+/* Hire me section */
+
+.hire-me {
+  height: 300px;
+  background-color:rgb(9, 9, 37);
+}
+.hire-me h2 {
+  margin-top: 0;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+
+}
+.button-col {
+  text-align: center;
+    margin-top: 20px;
+}
+.button {
+  background-color: rgb(9, 9, 37);
+  border: 3px solid white;
+  border-radius: 45px;
+  padding: 10px 10px;
+  width: 300px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+.button:hover {
+  text-decoration: none;
+  color: #00B7FF;
+  border-color: #00B7FF;
+}
+
+/* Contact Me Section */
+
+.contact-me {
+  margin-bottom: 50px;
+}
+.contact-me h2 {
+  text-align: center;
+}
+.form-cont {
+  margin-top: 80px;
+}
+.contact-me p {
+  text-align: center;
+  font-size: 25px;
+}
+.contact-me label {
+  text-align: right;
+  padding-right: 80px;
+  text-transform: uppercase;  
+}
+.contact-me input {
+  height: 40px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.contact-me textarea {
+  font-size: 20px;
+}
+.send-e-button {
+  background-color: transparent;
+  border: 3px solid #00B7FF;
+  border-radius: 45px;
+  padding: 10px 5px;
+  width: 200px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  color: #00B7FF;
+}
+.send-e-button:hover {
+  background-color: black;
+  color: #00B7FF;
+  border-color: black;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.808)
+}
+footer h1 {
+  padding-top: 40px;
+  color: grey;
+  text-align: center
+}
+footer p {
+  color: lightgrey;
+  text-align: center;
+}
+.icon-col {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.icon-col i {
+  color: whitesmoke;
+  border-color: whitesmoke;
+}
+.icon-col i:hover {
+  color: #00B7FF;
+  border-color: #00B7FF;
 }
